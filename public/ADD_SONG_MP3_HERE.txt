@@ -1,0 +1,9 @@
+Place your MP3 file here and name it:
+  song.mp3
+
+Full path:
+  public/song.mp3
+
+(If you deploy the built dist/index.html standalone, put song.mp3 in the same folder next to index.html.)
+
+When you click "Song on" in the top-right header, the webpage will automatically play and loop ./song.mp3.
