@@ -1,6 +1,6 @@
 // Point this to the deployed server-side Worker from server/github-keepsake-worker.mjs.
 // Leave it empty for local-only photo downloads. Never put a GitHub token here.
-export const GITHUB_UPLOAD_ENDPOINT = "";
+export const GITHUB_UPLOAD_ENDPOINT = "https://birthday-keepsake-upload.workers.dev";
 
 export type GitHubUploadResult =
   | { status: "sent" }
